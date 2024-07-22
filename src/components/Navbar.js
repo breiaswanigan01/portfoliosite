@@ -4,19 +4,27 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-evenly">
+      <div className="flex justify-end space-x-8 p-2  bg-gradient-to-r from-blue-500 to-transparent opacity-75">
+        <p>
         <Link to="/" className=" ">
           Home
         </Link>
+        </p>
+        <p>
         <Link to="/about" className="">
           About
         </Link>
+        </p>
+        <p>
         <Link to="/projects" className="">
           Projects
         </Link>
+        </p>
+        <p>
         <Link to="/contact" className="">
           Contact
         </Link>
+        </p>
       </div>
     </>
   );
