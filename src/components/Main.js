@@ -27,7 +27,7 @@ const Main = () => {
             <h1 className="text-5xl font-bold text-white mb-4 animate-typing">
               Hi, I'm Breia Swanigan
             </h1>
-            <p className="text-xl text-white mb-8">
+            <p className="text-2xl text-white mb-8">
               A Passionate Front End Developer
             </p>
             <a
